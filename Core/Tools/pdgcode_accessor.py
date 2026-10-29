@@ -2,7 +2,7 @@
 # Authour: B. Suriah
 # 27 October 2026
 
-from pdgcode_library import pdg_codes
+from .pdgcode_library import pdg_codes
 
 def fetch_pdg_label(pdg_code):
 

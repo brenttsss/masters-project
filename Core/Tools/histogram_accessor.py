@@ -11,8 +11,8 @@ import matplotlib.ticker as ticker
 plt.rcParams['text.usetex'] = True
 plt.rcParams['text.latex.preamble'] = r'\usepackage{siunitx}'
 
-from histogram_library import histograms
-from pdgcode_accessor import fetch_pdg_label
+from .histogram_library import histograms
+from .pdgcode_accessor import fetch_pdg_label
 
 class HistogramAccessor:
 
